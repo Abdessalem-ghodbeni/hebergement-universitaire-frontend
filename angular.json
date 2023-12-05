@@ -33,7 +33,14 @@
               "src/styles.scss",
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.min.js"]
+            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.min.js",
+          "src/assets/front/api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js",
+          "src/assets/front/js/vendor.bundle.js",
+          "src/assets/front/js/theme.bundle.js",
+        "src/assets/back/js/scripts.js",
+      "src/assets/back/assets/demo/chart-area-demo.js",
+    "src/assets/back/assets/demo/chart-bar-demo.js",
+  "src/assets/back/js/datatables-simple-demo.js"]
           },
           "configurations": {
             "production": {
