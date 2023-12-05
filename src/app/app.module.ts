@@ -8,7 +8,12 @@ import { Error404Component } from './home/views/error404/error404.component';
 import { SigninComponent } from './home/views/signin/signin.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, Error404Component, SigninComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    Error404Component,
+    SigninComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
